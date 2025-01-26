@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #16a085;
+    --accent-color: #1abc9c;
+    --bg-color: #ecf0f1;
+    --text-color: #2c3e50;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.player-card {
+    background: linear-gradient(145deg, var(--primary-color), var(--secondary-color));
+    color: white;
+}
+
+.btn-control {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-control:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    transform: scale(1.05);
+}
+
+.form-control:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 0.2rem rgba(22, 160, 133, 0.25);
+}
+
+#audio-player {
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 10px;
+}
+
+.list-group-item {
+    border: none;
+    margin-bottom: 5px;
+    border-radius: 5px !important;
+    transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: var(--accent-color);
+    color: white;
+    transform: translateX(5px);
+}
+
+.form-range::-webkit-slider-thumb {
+    background: var(--accent-color);
+}
+
+.form-range::-moz-range-thumb {
+    background: var(--accent-color);
+}

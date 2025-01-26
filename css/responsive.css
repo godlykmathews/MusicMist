@@ -1,0 +1,26 @@
+/* This file is intentionally left blank. */
+@media (max-width: 768px) {
+    .player-card {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 20px 20px 0 0;
+        margin: 0;
+        z-index: 1000;
+    }
+
+    .container {
+        padding-bottom: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn-control {
+        padding: 8px;
+    }
+
+    .navbar .form-control {
+        width: 150px;
+    }
+}
